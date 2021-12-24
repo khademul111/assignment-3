@@ -1,0 +1,75 @@
+body{
+    
+    background-color:rgb(227, 255, 227);
+}
+.head{
+    
+   font-style: italic; 
+   font-display: block;
+   color: darkorange;
+   margin-top: 20px;
+}
+
+
+.search-box{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    height:40px ;
+    border-radius: 30px;
+    margin-bottom: 200px;
+    padding: 7px;
+}
+
+.search-box-1{
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #d7e4f7;
+    color: #a10303;
+    height:40px ;
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: 7px;
+    box-shadow: #b3c9e9 2px 2px;
+}
+.search-box-2{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #2b75dd;
+    color: aliceblue;
+    height:40px ;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding: 7px;
+    box-shadow: #7a8da8 2px 2px;
+
+}
+.api-data-style{
+
+    margin-top: 150px ;
+    margin-left: 50px;
+    margin-bottom: 80px;
+}
+#d-data{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-flex-align: center;
+    
+}
+.style{
+    margin-top: 150px ;
+    margin-left: 50px;
+    margin-bottom: 80px;
+}
+#mealdata{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
